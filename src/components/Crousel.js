@@ -6,7 +6,8 @@ import manali3 from "../images/manali3.jpg";
 const Crousel = () => {
   return (
     <>
-      <Carousel>
+      <Carousel   autoPlay={true}
+    interval={1000}>
         <Carousel.Item>
           <img
             className="d-block w-100 crousel-image"

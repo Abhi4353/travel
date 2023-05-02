@@ -32,25 +32,36 @@ const PopularPlaces = () => {
                         <div className='popular-places-images'>
                           <div className='row'>
                             
-                            <div className='col-4'>
+                            <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
+                              <div className='popular-places-div'>
                                  <img src={himachal1} alt='pic' />
+                                 </div>
                             </div>
-                            <div className='col-4'>
+                            <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
+                            <div className='popular-places-div'>
                                  <img src={himachal2} alt='pic' />
+                                 </div>
                             </div>
-                            <div className='col-4'>
+                            <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
+                            <div className='popular-places-div'>
                                  <img src={himachal3} alt='pic' />
+                                 </div>
                             </div>
-                          </div><br/>
-                          <div className='row'>
-                            <div className='col-4'>
+                          
+                            <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
+                            <div className='popular-places-div'>
                                  <img src={himachal4} alt='pic' />
+                                 </div>
                             </div>
-                            <div className='col-4'>
+                            <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
+                            <div className='popular-places-div'>
                                  <img src={himachal5} alt='pic' />
+                                 </div>
                             </div>
-                            <div className='col-4'>
+                            <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
+                            <div className='popular-places-div'>
                                  <img src={himachal6} alt='pic' />
+                                 </div>
                             </div>
                           </div>
                           </div>

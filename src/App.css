@@ -1,84 +1,298 @@
+/* ********************Main Header Css*************************** */
 .main-header {
-    background: aliceblue;
-    height: auto;
+    background: white;
+    height: 80px;
     position: relative;
 }
+
 .main-logo {
     display: flex;
     justify-content: center;
     margin: 10px;
 }
+
 .nav-buttons {
     display: flex;
     gap: 40px;
     margin-top: 12px !important;
 }
+
 .nav-icons {
     display: flex;
     gap: 15px !important;
     margin-top: 5px !important;
 }
-.crousel-image{
+
+/* ********************Crousel Css*************************** */
+
+
+.crousel-image {
     height: 600px;
 }
-.find-tour{
+
+/* ********************find tour Css*************************** */
+
+
+.find-tour {
     background-color: #040e27;
     color: white;
 }
+
 .find-tour-text {
     display: flex;
     justify-content: flex-end;
     margin: 29px;
 }
+
 .find-tour-boxes {
     display: flex;
     gap: 17px;
     margin-top: 50px;
 }
+
 .find-tour-button {
     display: flex;
     justify-content: flex-start;
     margin: 40px;
 }
-.popular-places{
+
+/* ********************Popular Places Css*************************** */
+
+.popular-places {
     margin: 70px 0px 70px 0px;
 }
+
 .popular-places-title {
     display: flex;
     justify-content: center;
     font-size: 40px;
     font-weight: 700;
 }
+
 .popular-places-para {
     display: flex;
     justify-content: center;
     font-size: 20px;
 }
-.popular-places-images img{
+
+.popular-places-images img {
     height: 300px;
     width: 400px;
     transition: 0.3s;
     border-radius: 10px;
 }
+.popular-places-div{
+        border: 1px solid #fff;
+        border-radius: 10px;
+}
+
+/* ********************subscribe component Css*************************** */
+
+
+.subscribe-main-div {
+    background-color: #39475d;
+    color: white;
+}
+
 .subscribe-text-heading {
     font-size: 30px;
     font-weight: 700;
 }
+
 .subscribe-text {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 }
-.subscribe-text-box input{
-        height: 45px;
-        width: 300px;
+
+.subscribe-text-box input {
+    height: 45px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
 }
+
 .subscribe-text-box {
     display: flex;
     gap: 20px;
+    margin-top: 35px;
 }
-.popular-places-images img:hover  {
+
+.subscribe-text-box input::placeholder {
+    color: #39475d;
+    font-size: 17px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+.subscribe-div {
+    display: flex;
+    justify-content: center;
+}
+
+.popular-places-images img:hover {
     transform: translateY(-10px);
-  }
+}
+
+
+/* ********************Popular destination Css*************************** */
+
+.popular-destination {
+    margin: 70px 0px 70px 0px;
+
+}
+
+.popular-destination-container {
+    text-align: center;
+}
+
+.popular-destination-heading h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.popular-destination-para p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.popular-destination-images{
+    row-gap: 20px;
+}
+.popular-destination-column{
+    border: 1px solid #fff;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.popular-destination-column-image6{
+    background-image: url('https://www.infogrepper.com/wp-content/uploads/2022/10/image-url-for-testing.png');
+    height: 250px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.popular-destination-column-image1{
+    background-image: url('https://i.pinimg.com/originals/93/dd/3c/93dd3ca658a706bdb1692c3f8103abe3.jpg');
+    height: 250px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.popular-destination-column-image2{
+    background-image: url('https://wallpapercave.com/wp/wp6124215.jpg');
+    height: 250px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.popular-destination-column-image3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KFcN7RP8od8x7H5jm5CTv528lMXZ6fPp3w&usqp=CAU');
+    height: 250px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.popular-destination-column-image4{
+    background-image: url('https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61GGn9V46-L._SY355_.jpg');
+    height: 250px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.popular-destination-column-image5{
+    background-image: url('https://thumbs.dreamstime.com/z/kingfisher-bird-small-to-medium-size-94585063.jpg');
+    height: 250px;
+    width: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.popular-destination-column-button button {
+    border-radius: 40px;
+    display: flex;
+    margin: 20px 0px 0px 12px;
+}
+.popular-destination-column-text-heading {
+    text-align: left;
+}
+.popular-destination-column-text-icons {
+    text-align: left;
+}
+.popular-destination-clock-icon {
+    text-align: end;
+}
+.popular-destination-button button {
+    width: auto;
+    border-radius: 20px;
+    margin: 70px;
+}
+
+/* ********************videoplayer Css*************************** */
+
+
+
+.videoplayer{
+    width: 100% !important;
+    height: 500px !important;
+}
+.videoplayer1{
+    width: 100% !important;
+
+}
+.videoplayer-image{
+    background-image: url('https://preview.colorlib.com/theme/travelo/img/banner/video.png.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 190px 0;
+}
+.videplayer-text h1{
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+.videoplayer-play-button{
+    width: 84px;
+    height: 84px;
+    text-align: center;
+    line-height: 84px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #1EC6B6;
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* ********************Features Component Css*************************** */
+
+.features-comp {
+    margin: 100px 150px 100px 150px;
+}
+.features-comp-col{
+    text-align: center;
+    width: 350px;
+}
+.features-comp-col-icon i {
+    font-size: 50px;
+}
+
+
+.footer{
+    background-color: #040e27;
+}
+.footer-icon img{
+    margin: 20px;
+}
+.footer-links{
+color: white;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.footer-address{
+    color: white;
+}
 
 
 
@@ -91,50 +305,93 @@
 
 
 
+@media screen and (min-width:320px) and (max-width:768px) {
 
+    .main-header {
+        height: auto;
+    }
 
-
-
-
-
-
-
-
-@media screen and (min-width:320px) and (max-width:767px){
-    .crousel-image{
+    /* ********************crousel image Css*************************** */
+    .crousel-image {
         height: 400px !important;
-    } 
+    }
+
+    /* ********************find tour Css*************************** */
+
     .find-tour-text {
         display: flex;
         justify-content: center;
         margin: 29px;
     }
+
     .find-tour-boxes {
         display: grid;
         gap: 25px;
     }
+
     .find-tour-button {
         display: flex;
         justify-content: center;
         margin: 40px;
     }
+
+    /* ********************popular places Css*************************** */
+
     .popular-places-title {
         font-size: 40px;
         font-weight: 700;
         text-align: center;
     }
+
     .popular-places-para {
         font-size: 20px;
         text-align: center;
     }
+
     .popular-places-images img {
         height: 294px;
-        width: 300px;
-        gap: 5px !important;
+        width: 320px;
     }
-    .popular-places-images .col-4 {
+
+
+    /* .popular-places-images .col-4 {
         flex: 0 0 auto;
         width: auto !important;
-        margin: 20px;
+        margin-top: 25px;
+    } */
+
+    /* ********************Subscribe button  Css*************************** */
+
+    .subscribe-text-box input {
+        height: auto;
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 5px;
     }
+    .subscribe-text-heading {
+        text-align: center;
+    }
+
+
+    /* ********************Features Component  Css*************************** */
+    .features-comp {
+        margin: 30px 0px 0px 0px;
+    }
+ 
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    /* ********************Popular Place component  Css*************************** */
+
+    .popular-places-images img {
+        height: 294px;
+        width: 250px;
+    }
+
+    /* ********************Features component  Css*************************** */
+
+
 }

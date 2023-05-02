@@ -4,6 +4,9 @@ import Crousel from '../components/Crousel'
 import Findtour from '../components/Findtour'
 import PopularPlaces from '../components/PopularPlaces'
 import Subscribe from '../components/Subscribe'
+import PopularDestination from '../components/PopularDestination'
+import Video from '../components/Video'
+import Features from '../components/Features'
 
 const Home = () => {
   return (
@@ -13,6 +16,9 @@ const Home = () => {
         <Findtour />
         <PopularPlaces />
         <Subscribe />
+        <PopularDestination/>
+        <Video/>
+        <Features/>
       </Layout>
     </div>
   )
