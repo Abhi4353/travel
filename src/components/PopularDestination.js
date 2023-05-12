@@ -5,10 +5,10 @@ const PopularDestination = () => {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col">
+          <div className="col-md-12 col-sm-12 col-xs-12">
             <div className="container popular-destination">
               <div className="row">
-                <div className="col">
+                <div className="col-md-12 col-sm-12 col-xs-12">
                   <div className="container popular-destination-container">
                     <div className="row">
                       <div className="popular-destination-heading">

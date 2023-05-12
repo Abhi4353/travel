@@ -7,7 +7,7 @@ const Crousel = () => {
   return (
     <>
       <Carousel   autoPlay={true}
-    interval={1000}>
+    interval={3000}>
         <Carousel.Item>
           <img
             className="d-block w-100 crousel-image"

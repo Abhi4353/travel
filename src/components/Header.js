@@ -1,19 +1,23 @@
 import React from "react";
+import { useState } from "react";
 import logo from "../images/logo.jpg";
 import { Link } from "react-router-dom";
 const Header = () => {
-  // const[dropdown1,setDropdown1] = useState(false)
+  const[dropdown1,setDropdown1] = useState(false)
   // const[dropdown2,setDropdown2] = useState(false)
+  const changedropdownstate = () => {
+    setDropdown1(true)
+  }
   return (
     <>
       <div className="container-fluid main-header">
         <div className="row">
-          <div className="col">
+          <div className="col-md-4 col-sm-4 col-xs-4">
             <div className="main-logo">
               <img src={logo} alt="logo" />
             </div>
           </div>
-          <div className="col">
+          <div className="col-md-4 col-sm-4 col-xs-4">
             <div className="main-tabs">
               <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
@@ -93,10 +97,11 @@ const Header = () => {
                           role="button"
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
+                          onMouseOver={changedropdownstate}
                         >
                           Blogs
                         </Link>
-                        <ul
+                        {dropdown1 ? <ul
                           className="dropdown-menu"
                           aria-labelledby="navbarDropdown"
                         >
@@ -116,8 +121,8 @@ const Header = () => {
                               Something else here
                             </Link>
                           </li>
-                        </ul>
-                      </li>
+                        </ul> : "" }
+                      </li> 
                       <li className="nav-item">
                         <Link className="nav-link" aria-current="page" to="/">
                           Contact
@@ -129,7 +134,7 @@ const Header = () => {
               </nav>
             </div>
           </div>
-          <div className="col">
+          <div className="col-md-4 col-sm-4 col-xs-4">
             <div className="container-fluid">
               <div className="row">
                 <div className="nav-buttons">
