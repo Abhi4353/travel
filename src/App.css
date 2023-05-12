@@ -13,7 +13,7 @@
 
 .nav-buttons {
     display: flex;
-    gap: 40px;
+    gap: 5px;
     margin-top: 12px !important;
 }
 
@@ -306,7 +306,12 @@ color: white;
 
 
 @media screen and (min-width:320px) and (max-width:768px) {
-
+    .nav-buttons {
+        gap: 20px;
+    }
+    .features-comp-col {
+        width: 330px;
+    }
     .main-header {
         height: auto;
     }
@@ -383,7 +388,32 @@ color: white;
 
 
 
+
+
+
+
 @media screen and (min-width:768px) and (max-width:992px) {
+    /* Find tour css  */
+    .find-tour-text {
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .find-tour-boxes {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .find-tour-button {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+    .features-comp {
+        margin: 100px 150px 100px 242px;
+        display: flex;
+        justify-content: center;
+    }
     /* ********************Popular Place component  Css*************************** */
 
     .popular-places-images img {

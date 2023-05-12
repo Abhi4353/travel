@@ -12,12 +12,12 @@ const Header = () => {
     <>
       <div className="container-fluid main-header">
         <div className="row">
-          <div className="col-md-4 col-sm-4 col-xs-4">
+          <div className="col-md-4 col-lg-4 col-sm-4 col-xs-4">
             <div className="main-logo">
               <img src={logo} alt="logo" />
             </div>
           </div>
-          <div className="col-md-4 col-sm-4 col-xs-4">
+          <div className="col-md-2 col-lg-4 col-sm-4 col-xs-4">
             <div className="main-tabs">
               <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
@@ -134,14 +134,14 @@ const Header = () => {
               </nav>
             </div>
           </div>
-          <div className="col-md-4 col-sm-4 col-xs-4">
+          <div className="col-md-6 col-lg-4 col-sm-4 col-xs-4">
             <div className="container-fluid">
               <div className="row">
                 <div className="nav-buttons">
-                  <div className="col">
+                  <div className="col-md-4 col-sm-3 col-xs-4">
                     <li className="fa fa-phone">+918263953653</li>
                   </div>
-                  <div className="col">
+                  <div className="col-md-4 col-sm-3 col-xs-4">
                     <div className="nav-icons">
                       <i className="fa fa-instagram" aria-hidden="true" />
                       <i className="fa fa-linkedin" aria-hidden="true" />
@@ -149,7 +149,7 @@ const Header = () => {
                       <i className="fa fa-google-plus" aria-hidden="true" />
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-md-4 col-sm-6 col-xs-4">
                     <button
                       className="btn btn-outline-primary btn-sm"
                       type="button"

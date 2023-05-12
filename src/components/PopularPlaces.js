@@ -1,10 +1,11 @@
 import React from 'react'
-import himachal1 from '../images/himachal1.jpg'
-import himachal2 from '../images/himachal2.jpg'
-import himachal3 from '../images/himachal3.jpg'
-import himachal4 from '../images/himachal4.jpg'
-import himachal5 from '../images/himachal5.jpg'
-import himachal6 from '../images/himachal6.jpg'
+import { Link } from 'react-router-dom'
+import pic1 from '../images/pic1.jpg'
+import pic2 from '../images/pic2.jpg'
+import pic3 from '../images/pic3.jpg'
+import pic4 from '../images/pic4.jpg'
+import pic5 from '../images/pic5.jpg'
+import pic6 from '../images/pic6.jpg'
 
 const PopularPlaces = () => {
   return (
@@ -18,13 +19,12 @@ const PopularPlaces = () => {
                      <div className='container'>
                        <div className='row'>
                         <div className='popular-places-title'>
-                         <p>Popular Destination</p>
+                         <p>Friends</p>
                          </div>
                        </div>
                        <div className='row'>
                         <div className='popular-places-para'>
-                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon
-                             beard words.</p>
+                        <p>We all are here to do a lot of bakchodi and let i introduce my friends with you.</p>
                              </div>
                      </div>
                      <div className='row'>
@@ -34,33 +34,33 @@ const PopularPlaces = () => {
                             
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                               <div className='popular-places-div'>
-                                 <img src={himachal1} alt='pic' />
+                              <Link to={pic1} target='_blank'><img src={pic1} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                                 <img src={himachal2} alt='pic' />
+                            <Link to={pic2} target='_blank'><img src={pic2} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                                 <img src={himachal3} alt='pic' />
+                            <Link to={pic3} target='_blank'><img src={pic3} alt='pic' /></Link>
                                  </div>
                             </div>
                           
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                                 <img src={himachal4} alt='pic' />
+                            <Link to={pic4} target='_blank'><img src={pic4} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                                 <img src={himachal5} alt='pic' />
+                            <Link to={pic5} target='_blank'><img src={pic5} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                                 <img src={himachal6} alt='pic' />
+                                 <Link to={pic6} target='_blank'><img src={pic6} alt='pic' /></Link>
                                  </div>
                             </div>
                           </div>
