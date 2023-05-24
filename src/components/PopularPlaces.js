@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import pic1 from '../images/pic1.jpg'
-import pic2 from '../images/pic2.jpg'
-import pic3 from '../images/pic3.jpg'
-import pic4 from '../images/pic4.jpg'
-import pic5 from '../images/pic5.jpg'
-import pic6 from '../images/pic6.jpg'
+import shilpa1 from '../images/shilpa1.jpeg'
+import shilpa2 from '../images/shilpa2.jpeg'
+import shilpa3 from '../images/shilpa3.jpeg'
+import shilpa4 from '../images/shilpa4.jpeg'
+import shilpa5 from '../images/shilpa5.jpeg'
+import shilpa6 from '../images/shilpa6.jpeg'
 
 const PopularPlaces = () => {
   return (
