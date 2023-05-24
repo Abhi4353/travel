@@ -24,7 +24,7 @@ const PopularPlaces = () => {
                        </div>
                        <div className='row'>
                         <div className='popular-places-para'>
-                        <p>We all are here to do a lot of bakchodi and let i introduce my friends with you.</p>
+                        <p>This is Shilpa My jaanu shilpa love you.</p>
                              </div>
                      </div>
                      <div className='row'>
@@ -34,33 +34,33 @@ const PopularPlaces = () => {
                             
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                               <div className='popular-places-div'>
-                              <Link to={pic1} target='_blank'><img src={pic1} alt='pic' /></Link>
+                              <Link to={shilpa1} target='_blank'><img src={shilpa1} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                            <Link to={pic2} target='_blank'><img src={pic2} alt='pic' /></Link>
+                            <Link to={shilpa2} target='_blank'><img src={shilpa2} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                            <Link to={pic3} target='_blank'><img src={pic3} alt='pic' /></Link>
+                            <Link to={shilpa3} target='_blank'><img src={shilpa3} alt='pic' /></Link>
                                  </div>
                             </div>
                           
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                            <Link to={pic4} target='_blank'><img src={pic4} alt='pic' /></Link>
+                            <Link to={shilpa4} target='_blank'><img src={shilpa4} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                            <Link to={pic5} target='_blank'><img src={pic5} alt='pic' /></Link>
+                            <Link to={shilpa5} target='_blank'><img src={shilpa5} alt='pic' /></Link>
                                  </div>
                             </div>
                             <div className='col-md-6 col-lg-4 col-sm-12 col-xs-4'>
                             <div className='popular-places-div'>
-                                 <Link to={pic6} target='_blank'><img src={pic6} alt='pic' /></Link>
+                                 <Link to={shilpa6} target='_blank'><img src={shilpa6} alt='pic' /></Link>
                                  </div>
                             </div>
                           </div>
